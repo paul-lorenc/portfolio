@@ -3,9 +3,9 @@ import React from "react";
 
 function HomePage(props) {
     return (
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-            <img className= "avatar-img" src={require("../assets/images/headshot.png")}/>
+        <div style={{display: 'flex'}}>
             <div className="banner-text">
+                <img className= "avatar-img" src={require("../assets/images/headshot-bg.png")}/>
                 <h1 className="text-center">Software Developer</h1>
                 
                 <p className="text-center">Python | C/C++ | Java | JavaScript | HTML/CSS | ReactJS | PHP | SQL | Matlab </p>
