@@ -1,6 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import { Link } from 'react-router-dom';
 
 function Portfolio(props) {
     return (
@@ -15,7 +16,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/satsolver">View</Card.Link>
+                        <Link to="blog/satsolver">View</Link>
                     </Card.Footer>
                 </Card>
                 <Card>
