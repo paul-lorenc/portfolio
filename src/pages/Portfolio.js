@@ -1,11 +1,10 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import {Route, Link, Switch} from 'react-router-dom';
-import BlogSAT from "./BlogSAT";
-import BlogANS from "./BlogANS";
+import {Link, Switch} from 'react-router-dom';
 
-const PortfolioCards = () => (
+function Portfolio(props) {
+    return (
         <div>
             <CardGroup>
                 <Card>
@@ -94,30 +93,6 @@ const PortfolioCards = () => (
                 </Card>
             </CardGroup>
         </div> 
-);
-
-export default function Portfolio() {
-    return(
-        <Switch>
-            <Route
-                exact path="/blog"
-                render={() => (
-                    <PortfolioCards />
-                )}
-            />
-            <Route
-                exact path="/blog/satsolver"
-                render={() => (
-                    <BlogSAT />
-                )}
-            />
-            <Route
-                exact path="/blog/ans"
-                render={() => (
-                    <BlogANS />
-                )}
-            />
-
-        </Switch>
     );
-};
+}
+export default Portfolio;
