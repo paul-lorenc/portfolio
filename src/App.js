@@ -44,7 +44,7 @@ class App extends React.Component {
   render () {
     return (
      <div className="background-color">
-     <Router basename = "/portfolio">
+     <Router basename = {process.env.PUBLIC_URL}>
        <Container className="p-0" fluid={true}>
          <Navbar className="border-bottom" bg="transparent" expand="lg">
            <Navbar.Brand>Paul Lorenc</Navbar.Brand>
