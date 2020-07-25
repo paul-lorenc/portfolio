@@ -52,14 +52,14 @@ class App extends React.Component {
            <Navbar.Collapse id="navbar-toggle">
              <Nav className="ml-auto">
                <Link className="nav-link" to="/portfolio">Home</Link>
-               <Link className="nav-link" to="blog">Portfolio</Link>
-               <Link className="nav-link" to="about">About</Link>
-               <Link className="nav-link" to="resume">Resume</Link>
-               <Link className="nav-link" to="contact">Contact</Link>
+               <Link className="nav-link" to="/portfolio/blog">Portfolio</Link>
+               <Link className="nav-link" to="/portfolio/about">About</Link>
+               <Link className="nav-link" to="/portfolio/resume">Resume</Link>
+               <Link className="nav-link" to="/portfolio/contact">Contact</Link>
               </Nav>
            </Navbar.Collapse>
          </Navbar>
-           <Route path="/" exact render={() => <HomePage/>} /> 
+           <Route path="/portfolio" exact render={() => <HomePage/>} /> 
            <Route path="/portfolio/about" exact render={() => <AboutPage />} />
            <Route path="/portfolio/blog" exact render={() => <Portfolio />} />
            <Route path="/portfolio/resume" exact render={() => <ResumePage />} />
