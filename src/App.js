@@ -51,26 +51,26 @@ class App extends React.Component {
            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
            <Navbar.Collapse id="navbar-toggle">
              <Nav className="ml-auto">
-               <Link className="nav-link" to="/">Home</Link>
-               <Link className="nav-link" to="/blog">Portfolio</Link>
-               <Link className="nav-link" to="/about">About</Link>
-               <Link className="nav-link" to="/resume">Resume</Link>
-               <Link className="nav-link" to="/contact">Contact</Link>
+               <Link className="nav-link" to="/portfolio">Home</Link>
+               <Link className="nav-link" to="blog">Portfolio</Link>
+               <Link className="nav-link" to="about">About</Link>
+               <Link className="nav-link" to="resume">Resume</Link>
+               <Link className="nav-link" to="contact">Contact</Link>
               </Nav>
            </Navbar.Collapse>
          </Navbar>
            <Route path="/" exact render={() => <HomePage/>} /> 
-           <Route path="/about" exact render={() => <AboutPage />} />
-           <Route path="/blog" exact render={() => <Portfolio />} />
-           <Route path="/resume" exact render={() => <ResumePage />} />
-           <Route path="/contact" exact render={() => <ContactPage />} />
-           <Route path="/blog/satsolver" exact render={() => <BlogSAT />} />
-           <Route path="/blog/sudoku" exact render={() => <BlogSudoku />} />
-           <Route path="/blog/tynet" exact render={() => <BlogTynet />} />
-           <Route path="/blog/philaform" exact render={() => <BlogPhilaform />} />
-           <Route path="/blog/ans" exact render={() => <BlogANS/>} />
-           <Route path="/blog/melor" exact render={() => <BlogMelor />} />
-           <Route path="/blog/cpu" exact render={() => <BlogCPU />} />
+           <Route path="/portfolio/about" exact render={() => <AboutPage />} />
+           <Route path="/portfolio/blog" exact render={() => <Portfolio />} />
+           <Route path="/portfolio/resume" exact render={() => <ResumePage />} />
+           <Route path="/portfolio/contact" exact render={() => <ContactPage />} />
+           <Route path="/portfolio/blog/satsolver" exact render={() => <BlogSAT />} />
+           <Route path="/portfolio/blog/sudoku" exact render={() => <BlogSudoku />} />
+           <Route path="/portfolio/blog/tynet" exact render={() => <BlogTynet />} />
+           <Route path="/portfolio/blog/philaform" exact render={() => <BlogPhilaform />} />
+           <Route path="/portfolio/blog/ans" exact render={() => <BlogANS/>} />
+           <Route path="/portfolio/blog/melor" exact render={() => <BlogMelor />} />
+           <Route path="/portfolio/blog/cpu" exact render={() => <BlogCPU />} />
          <Footer/>
        </Container>
      </Router>
