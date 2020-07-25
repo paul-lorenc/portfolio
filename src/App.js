@@ -64,7 +64,7 @@ class App extends React.Component {
            <Route path="/blog" exact render={() => <Portfolio />} />
            <Route path="/resume" exact render={() => <ResumePage />} />
            <Route path="/contact" exact render={() => <ContactPage />} />
-           <Route path="/satsolver" exact render={() => <BlogSAT />} />
+           <Route path="blog/satsolver" exact render={() => <BlogSAT />} />
            <Route path="/blog/sudoku" exact render={() => <BlogSudoku />} />
            <Route path="/blog/tynet" exact render={() => <BlogTynet />} />
            <Route path="/blog/philaform" exact render={() => <BlogPhilaform />} />
