@@ -1,7 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import { Link } from 'react-router-dom';
 
 function Portfolio(props) {
     return (
@@ -16,7 +15,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Link to="blog/satsolver">View</Link>
+                        <Card.Link href="blog-satsolver">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -28,7 +27,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/sudoku">View</Card.Link>
+                        <Card.Link href="blog-sudoku">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -40,7 +39,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/tynet">View</Card.Link>
+                        <Card.Link href="blog-tynet">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -52,7 +51,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/philaform">View</Card.Link>
+                        <Card.Link href="blog-philaform">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -64,7 +63,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/ans">View</Card.Link>
+                        <Card.Link href="blog-ans">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -76,7 +75,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/melor">View</Card.Link>
+                        <Card.Link href="blog-melor">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -88,7 +87,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="blog/cpu">View</Card.Link>
+                        <Card.Link href="blog-cpu">View</Card.Link>
                     </Card.Footer>
                 </Card>
             </CardGroup>

@@ -64,13 +64,13 @@ class App extends React.Component {
            <Route path="/blog" exact render={() => <Portfolio />} />
            <Route path="/resume" exact render={() => <ResumePage />} />
            <Route path="/contact" exact render={() => <ContactPage />} />
-           <Route path="/blog/satsolver" exact render={() => <BlogSAT />} />
-           <Route path="/blog/sudoku" exact render={() => <BlogSudoku />} />
-           <Route path="/blog/tynet" exact render={() => <BlogTynet />} />
-           <Route path="/blog/philaform" exact render={() => <BlogPhilaform />} />
-           <Route path="/blog/ans" exact render={() => <BlogANS/>} />
-           <Route path="/blog/melor" exact render={() => <BlogMelor />} />
-           <Route path="/blog/cpu" exact render={() => <BlogCPU />} />
+           <Route path="/blog-satsolver" exact render={() => <BlogSAT />} />
+           <Route path="/blog-sudoku" exact render={() => <BlogSudoku />} />
+           <Route path="/blog-tynet" exact render={() => <BlogTynet />} />
+           <Route path="/blog-philaform" exact render={() => <BlogPhilaform />} />
+           <Route path="/blog-ans" exact render={() => <BlogANS/>} />
+           <Route path="/blog-melor" exact render={() => <BlogMelor />} />
+           <Route path="/blog-cpu" exact render={() => <BlogCPU />} />
          <Footer/>
        </Container>
      </Router>
