@@ -15,7 +15,7 @@ function Portfolio(props) {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Card.Link href="/blog/satsolver">View</Card.Link>
+                        <Card.Link href="blog/satsolver">View</Card.Link>
                     </Card.Footer>
                 </Card>
                 <Card>
