@@ -112,7 +112,7 @@ function ResumePage(props) {
                                 <Row>
                                     <div>
                                         <h5>Junior Web Developer, Tally (Wharton VIP-C Startup)</h5>
-                                        <p>For this internship, I worked under the lead developer to build a backend for our application, Tally, primarily using Node.js. I also worked on front end design of the application using HTML and CSS. I attended business meetings to provide a technical perspective. Additionally, I took a Wharton Marketing course with Tally team members and helped build a thorough marketing plan for our application and pitched our product to investors.</p>
+                                        <p>For this internship, I worked under the lead developer to build a backend for our application, Tally, primarily using Node.js. I also worked on front end design of the application using HTML and CSS. I attended business meetings to provide a technical perspective. Additionally, I took a graduate level Wharton Marketing course with Tally team members and helped build a thorough marketing plan for our application, and pitched our product in a Shark-tank style pitch competition.</p>
                                     </div>
                                 </Row>
                             </Col>

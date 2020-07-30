@@ -26,7 +26,7 @@ function BlogMelor(props) {
                     <p style={{marginTop: '10px'}}>The attached video shows MelOR in use, alongside the Lounge Lizard VST in Ableton Live.</p>
                     <p>This application is an attempt at a novel use of constraint based programming to randomly create music. I completed this work with my classmate Leonardo Nerone for the CIS189 course at UPenn. At a high level it generates arpeggiated diatonic chord progressions that follow modulating <a href="https://en.wikipedia.org/wiki/Euclidean_rhythm">euclidian rhythms</a></p>
                     <p>It does this by constructing an abstract rhythm space with one set of constraints, then constructing a seperate note order space using other constraints. ORTools then selects one feasible solution out of both of these spaces, and uses the solutions to generate MIDI data. You can read the project's README <a href={Pdf}>here</a></p>
-                    <p>We also constructued a very basic GUI using the python <a href="http://appjar.info/">appJar library</a>. It was very simple to implement and I reccomend it to anyone who needs a simple GUI for their python project.</p>
+                    <p>We also constructued a very basic GUI using the python <a href="http://appjar.info/">appJar library</a>. It was very simple to implement and I recommend it to anyone who needs a simple GUI for their python project.</p>
                 </div>
                 </Col>
             </Row>
